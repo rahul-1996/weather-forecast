@@ -16,7 +16,6 @@ export default function fetchWeather(city) {
 //of the resolved request.
 //So basically it waits unit the promise resolves and then sends that to the reducer.
 //So promise makes sure we only have to work with data, not promises
-    console.log('Request:', request) ; 
 
     return {
         type: FETCH_WEATHER,
