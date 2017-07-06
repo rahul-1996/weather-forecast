@@ -1,0 +1,20 @@
+td, th{
+    vertical-align: middle !important ;
+    text-align: center !important ; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.input-group{
+    margin: 1% auto ; 
+    width: 50% ;
+}
+
+svg {
+    height: 250px ; 
+}
+
+td:first-of-type, td:first-of-type >div {
+    height: 200px ;
+    width:250px ;
+}
